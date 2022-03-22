@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> <!--definir a linguagem do site-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago Lopes</title>
-    <link rel="stylesheet" href="">
+    <title>Thiago Lopes</title> <!--título da página-->
+    <link rel="stylesheet" href="style.css">         <!--linkar o projeto ao css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">   <!--fonte google, existem duas formas de incorporar-->
 </head>
 <body>
-    <h1>Thiago de Vasconcelos Lopes</h1>
-    <p>Estudande de ADS</p>
-    <p>Desenvolvedor fron-ent na <a href="wwww.google.com.br">Fábrica de software</a></p>
+    <h1><em>Thiago de Vasconcelos Lopes</em></h1>
+    <p><strong>Estudande de Análise e Desenvolvimento de sistemas - Centro Universitário de João Pessoa.</strong> </p>
+    <p><strong>20 anos.</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Desenvolvedor fron-ent na <a href="wwww.google.com.br" class="btn-1">Fábrica de software</a></p>
+    <hr>
+
+    <div class="contato"> <!--criação da caixa para área de contato-->
+        <h3>Entre em contato comigo!</h3>
+            <form action="">
+                <!--espaço nome -->
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome">
+                <br>
+                <br>  <!--usado para quebra de linhas-->
+                <!--espaço e-mail -->
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" required>  <!--usa required para colocar como obrigatório o preenchimento dos dados-->
+                <br>
+                <br>
+                <!--mensagem-->
+                <label for="texto">Mensagem: </label><br>
+                <textarea name="texto" id="texto" cols="20" rows="10"></textarea>
+
+                <br>
+
+                <button type="submit" class="btn-2">Enviar</button>
+    </div>
+    <br>
+    <p><strong>Este é um projeto não oficial da fábrica, com o intuito de colocar em prática algumas tags de HTML e CSS.</strong></p>
+    <p>Para mais informações entre em contato comigo:</p>
+    <p>Discord:<strong>тђเคG๏#1672</strong></p>
+    <p>Whatsapp:<strong>+55 (83) 99829-6120</strong></p>
+    <P>Instragram:<strong><a href="https://www.instagram.com/thiagolopesz/" target="_blank">https://www.instagram.com/thiagolopesz/</a></strong></P>
+    <footer>Copyright © 2022 - Thiago de Vasconcelos Lopes</footer>
     
 </body>
 </html>
